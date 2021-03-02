@@ -1,0 +1,3 @@
+/home/kent/CLionProjects/StringClass/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kent/CLionProjects/StringClass/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kent/CLionProjects/StringClass/cmake-build-debug/CMakeFiles/StringClass.dir
