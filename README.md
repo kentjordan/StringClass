@@ -25,9 +25,9 @@ _Version:_ 0.0.1 (Initial released)
 **Linux:**
 
 Run this command in your terminal:
->g++ <cpp_files> -L<paths> -lstringclass -o main.out
+>g++ [cpp_files] -L[path] -lstringclass -o main.out
 
-Take note that <cpp_files> and <paths> are denoted as variable, <cpp_files>: is where you can put your .cpp files on it, while <paths> is the path of the .so library. For example: g++ main.cpp -L~/Downloads -lstringclass -o main.out
+Take note that [cpp_files] and [path] are denoted as variable, [cpp_files]: is where you can put your .cpp files on it, while [path] is the path of the .so library. For example: g++ main.cpp -L~/Downloads -lstringclass -o main.out
 
 **Windows:**
 
