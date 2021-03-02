@@ -11,14 +11,15 @@ _Version:_ 0.0.1 (Initial released)
 * Lowercase all characters in string
 * Multiply string to given n numbers
 * Return string length
-* More shall come soon. Stay tuned!
+* More will come soon. Stay tuned!
 
 ### Supported operators:
 
 * Assignment
 * Comparison (==, !=, >, <)
 * Concatenation
-* More shall come soon. Stay tuned!
+* Multiplication
+* More will come soon. Stay tuned!
 
 ### How to include it in my project?
 
