@@ -1,7 +1,7 @@
 ## StringClass
  
 
-**A minimal string C++ library yet powerful and efficient!**
+**A minimal string C++ manipulation library yet powerful and efficient!**
 
 _Version:_ 0.0.1 (Initial released)
 
