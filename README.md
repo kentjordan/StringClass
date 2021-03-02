@@ -32,4 +32,4 @@ Take note that [cpp_files] and [path] are denoted as variable, [cpp_files]: is w
 
 **Windows:**
 
-I'll make on how soon.
+Soon
