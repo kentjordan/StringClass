@@ -227,6 +227,66 @@ const char* String::getString(){
     return this->mString;
 }
 
+// void String::toString(int x){
+
+//     // int p;
+
+//     // short v = (x / p) - (x  % p) / p;
+
+//     for (int i = 1; i < 1000000000; i *= 10){
+        
+//         int n = (int) x;
+
+//         if (n / i <= 10){
+            
+            
+//             int tmp =  (n / i) * i; // 300
+//             // std::cout << tmp << std::endl;
+
+//             // int tmp2 = (n - tmp) / (i / 10); // 2
+//             // std::cout << tmp2 << std::endl;
+
+//             // int tmp3 = (n - tmp2) / (i / 10); // 5
+//             // std::cout << tmp3 << std::endl;
+
+//             for (size_t j = i / 10; j >= 1; j /= 10){
+
+//                 int tmp1 = (n - tmp) / j;
+                
+//                 if(tmp1 >= 1 && tmp1 <=10){
+//                     std::cout << tmp1 << std::endl;
+//                 }                
+
+//             }            
+
+//             break;
+//         }
+//     }    
+    
+// }
+
+char* String::toString(int x){
+    
+    int base = 1;
+    int count {};
+
+    for(int n = x; n >= 1; n /= 10){ ++count; }
+
+    char* _string = new char[count];
+
+    for(int i = 10, j = count - 1; j >= 0; --j, i *= 10)
+    {
+        base = i;
+        
+        if(j == count - 1)
+            *(_string + j) = 48 + (x  % 10);
+        
+        *(_string + j - 1) = 48 + ((x % (base * 10)) - (x  % base)) / i;
+    } 
+
+    return _string;
+}
+
 /*
  *  TODO:
  *      1. Insertion and Extraction Operator

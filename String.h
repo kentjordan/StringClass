@@ -1,5 +1,4 @@
 // Specification
-
 #ifndef LEARNCPP_STRING_H
 #define LEARNCPP_STRING_H
 
@@ -45,6 +44,9 @@ public:
 
     // Functions
     int length();
+
+    // Convertion Functions
+    char* toString(int);
 
 };
 
