@@ -265,7 +265,7 @@ const char* String::getString(){
     
 // }
 
-char* String::toString(int x){
+char *String::toString(int x){
     
     int base = 1;
     int count {};
