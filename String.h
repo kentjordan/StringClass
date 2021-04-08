@@ -9,6 +9,7 @@ private:
     int length(const char* string);
     const char* concatTmp(const char* rhs);
     const char* repeatTmp(const char* rhs, int n);
+    int stringIntSize;
 
 public:
     String();
@@ -47,6 +48,7 @@ public:
 
     // Convertion Functions
     char* toString(int);
+    int* toInt(char*);
 
 };
 

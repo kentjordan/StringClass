@@ -272,6 +272,8 @@ char* String::toString(int x){
 
     for(int n = x; n >= 1; n /= 10){ ++count; }
 
+    stringIntSize = count;
+
     char* _string = new char[count];
 
     for(int i = 10, j = count - 1; j >= 0; --j, i *= 10)
@@ -285,6 +287,19 @@ char* String::toString(int x){
     } 
 
     return _string;
+}
+
+int *String::toInt(char* x){
+    
+    int *tmp = new int;
+    
+    for(int i = stringIntSize - 1, e = 1; i >= 0; --i, e *= 10){
+        
+        int pos =  *(x + i) * 1;
+        *tmp += (pos - 48) * e;
+    }
+    
+    return tmp;
 }
 
 /*

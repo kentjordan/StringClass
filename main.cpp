@@ -6,6 +6,8 @@ int main() {
 
     String x;
 
-    std::cout << x.toString(123456789) << "\n\n\n";
+    String y = x.toString(2222);
+
+    std::cout << y.getString()  << std::endl;
 
 }
