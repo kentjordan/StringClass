@@ -11,7 +11,7 @@ _Version:_ 0.0.1 (Initial released)
 * Lowercase all characters in string
 * Multiply string to given n numbers
 * Return string length
-* Convert integer (x84) to String
+* Convert: int to char* and char* to int
 * More will come soon. Stay tuned!
 
 ### Supported operators:
